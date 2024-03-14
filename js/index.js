@@ -10,3 +10,4 @@ router.handle();
 
 window.onpopstate = () => router.handle();
 window.route = () => router.route();
+//previne que a apicação redirecione a página, que siga o padrão das routes determinadas no window
